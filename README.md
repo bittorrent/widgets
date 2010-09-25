@@ -1,8 +1,29 @@
-                         BitTorrent SDK Widgets Package
+BitTorrent SDK Widgets Package
+==============================
 
+The Bittorrent Widgets package is a collection of widgets that integrate with
+the [Apps for BitTorrent SDK][sdk], and simplify common behaviors.
 
-Download Widget Callbacks
--------------------------
+Download Widgets
+----------------
+
+Download Widgets provide a quick and easy way to provide a UI that follows
+a common workflow:
+
+0. Present a button or link to download a torrent.
+0. When it is clicked, add the torrent for downloading.
+0. Display a progress-bar that indicates the extent of completion.
+0. When the download is complete, display a play button or link.
+0. When it is clicked, launch the largest file for playback.
+0. Display a replay button or link.
+
+You can get this workflow out-of-the-box with:
+
+    new bt.Widget.Download({
+      url : http://example.com/example.torrent
+    });
+
+### Download Widget Callbacks ###
 
 Widgets provide event-based callbacks. With Download Widgets, You can add
 override the default callbacks, and you can also add new callbacks of your own.
@@ -34,3 +55,5 @@ Widget.Download instance is unavailable, but its settings are available.
 Callbacks get default context of the settings object. You can override this by
 giving the callback function a persona property. An args property can be used to
 specify an array of bound arguments.
+
+[sdk](http://btapps-sdk.bittorrent.com/)
