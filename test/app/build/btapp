@@ -1,0 +1,6 @@
+name:widgets
+version:0.1
+publisher:BitTorrent Inc.
+update_url:http://10.20.30.98:8080/dist/widgets.btapp
+description:Unit tests for Widgets.
+release_date:08/23/2010

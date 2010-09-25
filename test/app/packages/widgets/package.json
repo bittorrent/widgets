@@ -1,0 +1,38 @@
+{
+    "description": "BitTorrent Apps Widget Library",
+    "author": "Bryan Kaplan <bkaplan@bittorrent.com>",
+    "bt:publisher": "BitTorrent Inc.",
+    "bt:libs": [
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/apps-sdk.pkg",
+            "name": "apps-sdk"
+        },
+        {
+            "url": "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.js",
+            "name": "jquery-ui"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "git://github.com/bittorrent/widgets.git",
+            "type": "git"
+        }
+    ],
+    "site": "http://btapps-sdk.bittorrent.com",
+    "bt:update_url": "http://staging.apps.bittorrent.com/pkgs/widgets.pkg",
+    "version": "0.1",
+    "bt:description": "BitTorrent Apps Widget Library\r\rCreate your own apps using the Apps for BitTorrent SDK.\rhttp://btapps-sdk.bittorrent.com/",
+    "keywords": [
+        "widget",
+        "library"
+    ],
+    "licenses": [
+        {
+            "url": "http://www.opensource.org/licenses/bsd-license.php",
+            "type": "New BSD License"
+        }
+    ],
+    "bt:release_date": "08/25/2010",
+    "name": "widgets",
+    "bt:package": true
+}
