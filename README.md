@@ -33,10 +33,9 @@ Here's an example including other recognized settings you can define:
         download    : ['Get %s',  'Loading\u2026'],
         play        : ['Play %s', 'Replay %s']
       }
-      callbacks : {
-        addTorrent  : function() { &#8230; }
-      }
     });
+
+See the [Media Downloader Tutorial][mdt] for an introduction to these settings.
 
 ### Download Widget Callbacks ###
 
@@ -72,3 +71,4 @@ giving the callback function a persona property. An args property can be used to
 specify an array of bound arguments.
 
 [sdk]: http://btapps-sdk.bittorrent.com/
+[mdt]: http://btapps-sdk.bittorrent.com/doc/tutorials/media_downloader.html
