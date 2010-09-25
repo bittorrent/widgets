@@ -20,7 +20,22 @@ a common workflow:
 You can get this workflow out-of-the-box with:
 
     new bt.Widget.Download({
-      url : http://example.com/example.torrent
+      url : 'http://example.com/example.torrent'
+    });
+
+Here's an example including other recognized settings you can define:
+
+    new bt.Widget.Download({
+      name      : 'Example',
+      url       : 'http://example.com/example.torrent',
+      elem      : $('#dlw'),
+      buttons   : {
+        download    : ['Get %s',  'Loading\u2026'],
+        play        : ['Play %s', 'Replay %s']
+      }
+      callbacks : {
+        addTorrent  : function() { &#8230; }
+      }
     });
 
 ### Download Widget Callbacks ###
@@ -56,4 +71,4 @@ Callbacks get default context of the settings object. You can override this by
 giving the callback function a persona property. An args property can be used to
 specify an array of bound arguments.
 
-[sdk](http://btapps-sdk.bittorrent.com/)
+[sdk]: http://btapps-sdk.bittorrent.com/
