@@ -1,0 +1,16 @@
+dist
+.settings
+*~
+*.diff
+*.patch
+build/
+.DS_Store
+*.pyc
+*.egg-info
+.#*
+packages/
+*.svn/
+loader/installer/bin/
+loader/installer/obj/
+_site/
+testapp/meta
