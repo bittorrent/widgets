@@ -1,0 +1,15 @@
+dist
+.settings
+*~
+*.diff
+*.patch
+build/
+.DS_Store
+*.pyc
+*.egg-info
+.#*i
+packages/
+*.svn/
+*dist/
+*packages/
+utorrent.exe
