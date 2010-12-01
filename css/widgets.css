@@ -1,0 +1,16 @@
+  div.ui-progressbar {
+                                border : 1px solid #888;
+                                height : 15px;
+                                 width : 300px;
+  }
+
+  div.ui-progressbar-value {
+                            background : #888;
+                                height : 100%;
+  }
+
+  div.bt-subscribe-widget a {
+                      background-image : url(/packages/widgets/img/rss.png);
+                     background-repeat : no-repeat;
+                          padding-left : 20px;
+  }
