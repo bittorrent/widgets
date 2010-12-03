@@ -37,6 +37,16 @@ Here's an example including other recognized settings you can define:
 
 See the [Media Downloader Tutorial][mdt] for an introduction to these settings.
 
+### Download Multiple Torrents in a Single Click ###
+
+If you have multiple download widgets appearing in your app, you may want to
+create one more to download everything in a single click, or to download
+a subset of them. You can create one that will download everything by specifying
+"*" for the url. To download only a subset, provide an array of URLs for the url
+value. Either way, clicking the button will trigger all other corresponding
+download widgets in your app. The progress bar will display an average of all
+related downloads.
+
 ### Download Widget Callbacks ###
 
 Widgets provide event-based callbacks. With Download Widgets, You can add
