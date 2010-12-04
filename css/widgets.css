@@ -9,7 +9,7 @@
                                 height : 100%;
   }
 
-  div.bt-subscribe-widget a {
+  a.bt-subscribe-widget {
                       background-image : url(/packages/widgets/img/rss.png);
                      background-repeat : no-repeat;
                           padding-left : 20px;
