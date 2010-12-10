@@ -9,8 +9,29 @@
                                 height : 100%;
   }
 
+  a.bt-share-widget,
+  a.bt-subscribe-widget {
+                     background-repeat : no-repeat;
+                          padding-left : 18px;
+                           margin-left : 6px;
+  }
+
   a.bt-subscribe-widget {
                       background-image : url(/packages/widgets/img/rss.png);
-                     background-repeat : no-repeat;
-                          padding-left : 20px;
+  }
+
+  a.bt-share-widget.twitter {
+                      background-image : url(/packages/widgets/img/twitter.png);
+  }
+
+  a.bt-share-widget.facebook {
+                      background-image : url(/packages/widgets/img/facebook.png);
+  }
+
+  a.bt-share-widget.email {
+                      background-image : url(/packages/widgets/img/chat.png);
+  }
+
+  a.bt-share-widget.generic {
+                          padding-left : 0;
   }
