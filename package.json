@@ -4,7 +4,7 @@
     "bt:publisher": "BitTorrent Inc.",
     "bt:libs": [
         {
-            "url": "http://staging.apps.bittorrent.com/pkgs/apps-sdk.pkg",
+            "url": "file:///home/bkaplan/src/bittorrent/apps-sdk/dist/apps-sdk.pkg",
             "name": "apps-sdk"
         },
         {
